@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRAVEEN KUMAR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Itim&family=Kavivanar&family=League+Script&family=Mukta+Malar:wght@200&family=Space+Mono&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/bootstrap.min.css">
+<link rel="icon" href="../image/icon/favicon.ico">
+</head>
+<body>
+<div id="preloader"></div>
+<nav class="navbar navbar-dark bg-dark">
+<div class="container-fluid" style="font-family:monospace;">
+<a class="navbar-brand" href="#">Praveen</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarText">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="#">Profile</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#projects">Projects</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#footer-bar">Contact me</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+<div class="container p-3">
+<div class="row">
+<div class="col-md-3 p-1 propic">
+<img id="profile-Image" class="img-fluid" src="./images/p.jpeg" width="100%" height="100%">
+</div>
+<div class="col-md-9 heading p-2">
+<h1>
+<p id="profile-heading" class="typewrite p-1" data-period="2000" data-type='["Liberation is a Choice","Be Prepared Rather Than Dreaming"]'>
+<span class="wrap"></span>
+</p>
+</h1>
+</div>
+</div>
+<br>
+<br>
+<div class="cv-content">
+<div class="container-fluid col-md-12 p-2" style="background-color: yellow; font-weight: bold;">Educational History</div>
+<div class="container col-md-12">
+<div class="row justify-content-center profile-cv col-md-12">
+<div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="./images/education.gif"></div>
+<div class="col-md-8 col align-self-center menu-content">
+<br>
+<div class="table-responsive">
+<table class="table table-dark table-hover academic-table">
+<tr><th scope="col">Courses</th><th scope="col">Institution</th><th scope="col">Percentage</th></tr>
+<tr><th scope="row">SSLC</th><td>VVM.Hr Sec School</td><td>93.3%</td></tr>
+<tr><th scope="row">HSC</th><td>VVM.Hr Sec School</td><td>79.4%</td></tr>
+<tr><th scope="row">B.E</th><td>SKP Enginerring colleage</td><td>60%</td></tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="container-fluid col-md-12 p-2" style="background-color: yellow; font-weight: bold;">Specializations</div>
+<div class="container col-md-12">
+<div class="row justify-content-between profile-cv col-md-12">
+<div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="./images/projects 3.gif"></div>
+<div class="col-md-8 col align-self-center menu-content">
+<br>
+<table class="table table-dark table-hover academic-table">
+<tr><th scope="row">Web Development</th></tr>
+<tr><th scope="row">Programming</th></tr>
+<tr><th scope="row">Networking</th></tr>
+</table>
+</div>
+</div>
+</div>
+<br>
+<div class="container-fluid col-md-12 p-2" style="background-color: yellow; font-weight: bold;">CV and Resume</div>
+<div class="container col-md-12">
+<div class="row justify-content-between profile-cv col-md-12">
+<div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="./images/resume.gif"></div>
+<div class="col-md-8 col align-self-center menu-content">
+<br>
+<button class="btn btn-danger cvbtn" id="cv" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#ccv">View and Download my CV</button>
+<br>
+<br>
+<button class="btn btn-warning cvbtn" id="resume" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#rresume">View and Download my Resume</button>
+<br>
+<br>
+<button class="btn btn-success cvbtn" id="certificates" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#certificate">View and Download my Certificates</button>
+<br>
+<br>
+<!-- modal for cvbtns -->
+<div class="modal fade" id="ccv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-fullscreen">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel" style="color: rgb(56, 56, 56)">Praveen CV</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<object data="./docs/resume/Praveen_Kumar_Resume_23.pdf" type="application/pdf" width="100%" height="100%"></object>
+</div>
+<div class="modal-footer">
+<a href="./docs/resume/Praveen_Kumar_Resume_23.pdf" download="Praveen_CV">
+<button type="button" class="btn btn-success">Download PDF</button></a>
+<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="rresume" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-fullscreen">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel" style="color: rgb(56, 56, 56)">Praveen Resume</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+    <object data="./docs/resume/Praveen_Kumar_Resume_23.pdf" type="application/pdf" width="100%" height="100%"></object>
+</div>
+<div class="modal-footer">
+<a href="./docs/resume/Praveen_Kumar_Resume_23.pdf" download="Praveen_resume">
+<button type="button" class="btn btn-success">Download PDF</button></a>
+<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="certificate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel" style="color: rgb(56, 56, 56)">Praveen Certificates</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-success">Download PDF</button>
+<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="container-fluid col-md-12 p-2" id="projects" style="background-color: yellow; font-weight: bold;">Projects</div>
+<div class="container col-md-12">
+<div class="row justify-content-between profile-cv col-md-12">
+<div class="col-md-4 d-flex justify-content-center"><img class="img-fluid" src="./images/projects 1.gif"></div>
+<div class="col-md-8 col align-self-center menu-content">
+<br>
+<br>
+<div class="bg-light project-links p-1">
+<a href="https://globytex.com/deal_exchange/" class="project-links">
+<div class="row row align-items-center">
+<div class="col col-sm-2"><img class="pp" src="./images/deal.png" height="70px" width="70px"></div>
+<div class="col col-sm-10"><span class="project-title">E-commerce Project</span><br>
+<span class="project-description">It’s an E-Commerce site where users can sell and buy all sorts of vehicles,
+    electronic gadgets, and machineries etc.</span></div>   
+</div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="container-fuild">
+<footer class="d-flex flex-wrap justify-content-between align-items-center">
+<nav class="footer-bar" id="footer-bar">
+<div class="container-fluid row">
+<div class="col-md-6">
+<div class="base">  
+<p><a class="navbar-brand" href="https://karan-github96.github.io/Dhinakar-Page/home%20page/index.html">பிரவீன்</a></p>
+<p class="footer-heading" style="font-family: monospace; color: white;"><b>E-mail: mail2praveen144@gmail.com</b></p>
+
+</div>
+</div>
+<div class="col-md-6" style="font-family: monospace; color: white;">
+<p>Catch me</p>
+<a href="https://www.linkedin.com/in/praveen-m-kumar/" style="text-decoration: none">
+<img src="./images/linkedin.png" class="footer-link" alt="" srcset="">&nbsp; Linked In</a><br>
+<br>
+<a href="https://github.com/praveen-champ" style="text-decoration: none">
+<img src="./images/git.png" class="footer-link" alt="" srcset="">&nbsp; Github</a>
+</div>
+</div>
+</nav>
+</footer>
+</div>
+<script src="./scripts/bootstrap.min.js"></script>
+<script src="./scripts/script.js"></script>
+<script>
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){loader.style.display= "none";})
+</script>
+</body>
+</html>
